@@ -1,5 +1,6 @@
 package base;
 
+import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 
 public class BasePage {
@@ -11,31 +12,31 @@ public class BasePage {
 
     }
 
-    public void click(String locator) {
-
+    public void click(Locator locator) {
+        locator.click();
     }
 
-    public void fill(String locator, String value) {
-
+    public void fill(Locator locator, String value) {
+        locator.fill(value);
     }
 
-    public String getText(String locator) {
-        return null;
+    public String getText(Locator locator) {
+        return locator.textContent();
     }
 
-    public boolean isVisible(String locator) {
-        return false;
+    public boolean isVisible(Locator locator) {
+        return locator.isVisible();
     }
 
-    public void waitForVisible(String locator) {
-
+    public void waitForVisible(Locator locator) {
+        locator.waitFor();
     }
 
     public String getTitle() {
-        return null;
+        return page.title();
     }
 
     public String getURL() {
-        return null;
+        return page.url();
     }
 }
