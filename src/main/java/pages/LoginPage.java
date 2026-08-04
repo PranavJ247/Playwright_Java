@@ -10,16 +10,19 @@ public class LoginPage extends BasePage {
     private Locator btnLogin = page.locator("button[type='submit']");
     private Locator lblDashboard = page.locator("//h6[text()='Dashboard']");
 
-    public void login(String usernam, String password) {
-        fill(txtUsername, usernam);
+    public void login(String username, String password) {
+        fill(txtUsername, username);
 
         fill(txtPassword, password);
 
         click(btnLogin);
     }
 
-    public boolean isDashboardDisplayed() {
+    public boolean isDashboardDisplayed() throws InterruptedException {
+        waitForVisible(lblDashboard);
+        Thread.sleep(5000);
         return isVisible(lblDashboard);
+
     }
 
 
