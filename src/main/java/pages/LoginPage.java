@@ -10,8 +10,8 @@ public class LoginPage extends BasePage {
     private Locator btnLogin = page.locator("button[type='submit']");
     private Locator lblDashboard = page.locator("//h6[text()='Dashboard']");
 
-    public void login(String username, String password) {
-        fill(txtUsername, username);
+    public void login(String usernam, String password) {
+        fill(txtUsername, usernam);
 
         fill(txtPassword, password);
 
