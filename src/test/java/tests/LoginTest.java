@@ -11,7 +11,7 @@ public class LoginTest extends BaseTest {
     @Test
     public void verifyLogin() throws InterruptedException {
 
-        // Open Application
+        // Open the Application
         PlaywrightFactory.getPage().navigate("https://opensource-demo.orangehrmlive.com/");
 
         // Create Page Object
@@ -20,7 +20,7 @@ public class LoginTest extends BaseTest {
         // Perform Login
         loginPage.login("Admin", "admin123");
 
-        // Verify Dashboard
+        // Verify the Dashboard
         Assert.assertTrue(loginPage.isDashboardDisplayed());
 
     }
