@@ -1,6 +1,7 @@
 package base;
 
 import com.microsoft.playwright.*;
+import utils.ConfigReader;
 
 public class PlaywrightFactory {
 
@@ -12,12 +13,35 @@ public class PlaywrightFactory {
     public static void initBrowser() {
         playwright.set(Playwright.create());
         BrowserType.LaunchOptions options = new BrowserType.LaunchOptions();
-        options.setHeadless(false);
+        boolean headless =
+                Boolean.parseBoolean(ConfigReader.getProperty("headless"));
+
+        options.setHeadless(headless);
 
         // Launch Browser
-        browser.set(
-                playwright.get().chromium().launch(options)
-        );
+
+        String browserName = ConfigReader.getProperty("browser");
+
+        switch (browserName.toLowerCase()) {
+
+            case "chromium":
+                browser.set(playwright.get().chromium().launch(options));
+                break;
+
+            case "firefox":
+                browser.set(playwright.get().firefox().launch(options));
+                break;
+
+            case "webkit":
+                browser.set(playwright.get().webkit().launch(options));
+                break;
+
+            default:
+                throw new RuntimeException("Invalid browser: " + browserName);
+        }
+//        browser.set(
+//                playwright.get().chromium().launch(options)
+//        );
         context.set(
                 browser.get().newContext()
         );
@@ -25,6 +49,7 @@ public class PlaywrightFactory {
                 context.get().newPage()
         );
     }
+
     public static Page getPage() {
         return page.get();
     }
