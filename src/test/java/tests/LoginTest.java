@@ -5,6 +5,7 @@ import base.PlaywrightFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.LoginPage;
+import utils.ConfigReader;
 
 public class LoginTest extends BaseTest {
 
@@ -12,7 +13,7 @@ public class LoginTest extends BaseTest {
     public void verifyLogin() throws InterruptedException {
 
         // Open the Application
-        PlaywrightFactory.getPage().navigate("https://opensource-demo.orangehrmlive.com/");
+        PlaywrightFactory.getPage().navigate(ConfigReader.getProperty("url"));
 
         // Create Page Object
         LoginPage loginPage = new LoginPage();
