@@ -1,6 +1,5 @@
 Feature: OrangeHRM Login
 
-@Test
   Scenario: Successful Login
     Given user launches the application
     When user enters username "Admin"
