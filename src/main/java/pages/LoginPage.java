@@ -1,5 +1,6 @@
 package pages;
 import base.BasePage;
+import pages.DashboardPage;
 import com.microsoft.playwright.Locator;
 public class LoginPage extends BasePage {
     public LoginPage() {
@@ -18,14 +19,6 @@ public class LoginPage extends BasePage {
         click(btnLogin);
     }
 
-    public boolean isDashboardDisplayed() throws InterruptedException {
-        waitForVisible(lblDashboard);
-        page.waitForTimeout(5000);
-        return isVisible(lblDashboard);
-
-    }
-
-
     public void enterUsername(String username) {
         fill(txtUsername, username);
     }
@@ -37,4 +30,5 @@ public class LoginPage extends BasePage {
     public void clickLogin() {
         click(btnLogin);
     }
+
 }
