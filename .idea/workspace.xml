@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e85aa8a-093f-42b4-ac2c-c2fb610135d8" name="Changes" comment="8 aug commit v2 Hooks and Test Runner creation">
+    <list default="true" id="2e85aa8a-093f-42b4-ac2c-c2fb610135d8" name="Changes" comment="8 aug commit v3 refactoring">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DashboardPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +70,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.LoginTest.executor": "Run",
     "TestNG.TestRunner.executor": "Run",
-    "git-widget-placeholder": "#12 on Playwright__Java",
+    "git-widget-placeholder": "#13 on Playwright__Java",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/pranav/IdeaProjects/Playwright_Java/src/main/java/base",
     "onboarding.tips.debug.path": "C:/Users/pranav/IdeaProjects/Playwright_Java/src/main/java/org/example/Main.java",
@@ -236,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786189937509</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="8 aug commit v3 refactoring">
+      <option name="closed" value="true" />
+      <created>1786191378996</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1786191378996</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -269,6 +281,7 @@
     <MESSAGE value="6 aug commit v1 Passing Dynamic URL" />
     <MESSAGE value="8 aug commit v1 changing the timeout" />
     <MESSAGE value="8 aug commit v2 Hooks and Test Runner creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="8 aug commit v2 Hooks and Test Runner creation" />
+    <MESSAGE value="8 aug commit v3 refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="8 aug commit v3 refactoring" />
   </component>
 </project>

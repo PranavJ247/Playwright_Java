@@ -5,6 +5,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
 import org.testng.Assert;
+import pages.DashboardPage;
 import pages.LoginPage;
 
 public class LoginSteps {
@@ -41,7 +42,7 @@ public class LoginSteps {
 
     @Then("user should see the Dashboard")
     public void userShouldSeeDashboard() throws InterruptedException {
-
-        Assert.assertTrue(loginPage.isDashboardDisplayed());
+        DashboardPage dashboardPage = new DashboardPage();
+        Assert.assertTrue(dashboardPage.isDashboardDisplayed());
     }
 }

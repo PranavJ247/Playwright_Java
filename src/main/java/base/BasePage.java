@@ -5,7 +5,7 @@ import com.microsoft.playwright.Page;
 
 public class BasePage {
 
-    protected Page page;
+    protected static Page page;
 
     public BasePage() {
         page = PlaywrightFactory.getPage();
@@ -24,7 +24,7 @@ public class BasePage {
         return locator.textContent();
     }
 
-    public boolean isVisible(Locator locator) {
+    public static boolean isVisible(Locator locator) {
         return locator.isVisible();
     }
 
