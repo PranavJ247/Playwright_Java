@@ -20,7 +20,7 @@ public class LoginPage extends BasePage {
 
     public boolean isDashboardDisplayed() throws InterruptedException {
         waitForVisible(lblDashboard);
-        Thread.sleep(5000);
+        page.waitForTimeout(5000);
         return isVisible(lblDashboard);
 
     }
