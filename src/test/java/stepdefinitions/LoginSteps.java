@@ -45,4 +45,15 @@ public class LoginSteps {
         DashboardPage dashboardPage = new DashboardPage();
         Assert.assertTrue(dashboardPage.isDashboardDisplayed());
     }
+
+    @When("user logs out")
+    public void userLogsOut() {
+        DashboardPage dashboardPage = new DashboardPage();
+        dashboardPage.logout();
+    }
+
+    @Then("user should see the Login page")
+    public void userShouldSeeLoginPage() {
+        Assert.assertTrue(loginPage.isLoginPageDisplayed());
+    }
 }

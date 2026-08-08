@@ -31,4 +31,9 @@ public class LoginPage extends BasePage {
         click(btnLogin);
     }
 
+    public boolean isLoginPageDisplayed() {
+        page.waitForTimeout(5000);
+        return isVisible(txtUsername);
+    }
+
 }
