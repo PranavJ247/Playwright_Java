@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e85aa8a-093f-42b4-ac2c-c2fb610135d8" name="Changes" comment="6 aug commit v1 Passing Dynamic URL" />
+    <list default="true" id="2e85aa8a-093f-42b4-ac2c-c2fb610135d8" name="Changes" comment="8 aug commit v1 changing the timeout">
+      <change afterPath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,22 +38,22 @@
     &quot;assignee&quot;: &quot;PranavJ247&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/PranavJ247/Playwright_Java.git",
-    "accountId": "9a3c633d-229b-4a66-ba3f-cea2933a0510"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PranavJ247/Playwright_Java.git&quot;,
+    &quot;accountId&quot;: &quot;9a3c633d-229b-4a66-ba3f-cea2933a0510&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "PranavJ247",
-    "repository": "Playwright_Java"
+    &quot;owner&quot;: &quot;PranavJ247&quot;,
+    &quot;repository&quot;: &quot;Playwright_Java&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -61,14 +68,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.LoginTest.executor": "Run",
-    "git-widget-placeholder": "#10 on Playwright__Java",
+    "TestNG.TestRunner.executor": "Run",
+    "git-widget-placeholder": "#11 on Playwright__Java",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/pranav/IdeaProjects/Playwright_Java/src/main/java/base",
     "onboarding.tips.debug.path": "C:/Users/pranav/IdeaProjects/Playwright_Java/src/main/java/org/example/Main.java",
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.TestRunner">
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Playwright_Java" />
       <extension name="coverage">
@@ -86,8 +94,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Playwright_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
@@ -197,8 +223,19 @@
       <option name="project" value="LOCAL" />
       <updated>1785960226062</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="8 aug commit v1 changing the timeout">
+      <option name="closed" value="true" />
+      <created>1786178224090</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1786178224090</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.feature" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -225,6 +262,7 @@
     <MESSAGE value="5 aug commit v2 readme file" />
     <MESSAGE value="5 aug commit v3 readme file" />
     <MESSAGE value="6 aug commit v1 Passing Dynamic URL" />
-    <option name="LAST_COMMIT_MESSAGE" value="6 aug commit v1 Passing Dynamic URL" />
+    <MESSAGE value="8 aug commit v1 changing the timeout" />
+    <option name="LAST_COMMIT_MESSAGE" value="8 aug commit v1 changing the timeout" />
   </component>
 </project>

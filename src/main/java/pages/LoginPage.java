@@ -26,5 +26,15 @@ public class LoginPage extends BasePage {
     }
 
 
+    public void enterUsername(String username) {
+        fill(txtUsername, username);
+    }
 
+    public void enterPassword(String password) {
+        fill(txtPassword, password);
+    }
+
+    public void clickLogin() {
+        click(btnLogin);
+    }
 }
