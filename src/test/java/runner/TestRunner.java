@@ -9,6 +9,7 @@ import io.cucumber.testng.CucumberOptions;
         plugin = {
                 "pretty"
         },
+        tags= "@regression",
         monochrome = true
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
