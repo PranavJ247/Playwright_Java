@@ -1,5 +1,5 @@
 Feature: OrangeHRM Logout
-
+  @regression
   Scenario: Successful Logout
 
     Given user launches the application
