@@ -15,7 +15,7 @@ public class BasePage {
     public void click(Locator locator) {
         locator.click();
     }
-
+//Enter values
     public void fill(Locator locator, String value) {
         locator.fill(value);
     }
