@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e85aa8a-093f-42b4-ac2c-c2fb610135d8" name="Changes" comment="14 aug commit V1">
+    <list default="true" id="2e85aa8a-093f-42b4-ac2c-c2fb610135d8" name="Changes" comment="17 aug commit V2">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,11 +335,28 @@
       <option name="project" value="LOCAL" />
       <updated>1786716321606</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="17 aug commit V1">
+      <option name="closed" value="true" />
+      <created>1786937654001</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1786937654001</updated>
+    </task>
+    <task id="LOCAL-00023" summary="17 aug commit V2">
+      <option name="closed" value="true" />
+      <created>1786937966262</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1786937966262</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.feature" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="Dockerfile" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -373,6 +392,8 @@
     <MESSAGE value="11 aug commit Data driven testcase and running the Smoke and regression tags V2" />
     <MESSAGE value="11 aug commit V1" />
     <MESSAGE value="14 aug commit V1" />
-    <option name="LAST_COMMIT_MESSAGE" value="14 aug commit V1" />
+    <MESSAGE value="17 aug commit V1" />
+    <MESSAGE value="17 aug commit V2" />
+    <option name="LAST_COMMIT_MESSAGE" value="17 aug commit V2" />
   </component>
 </project>
