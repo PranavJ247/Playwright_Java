@@ -8,4 +8,6 @@ RUN mvn dependency:go-offline
 
 COPY src ./src
 
-CMD ["mvn", "clean", "test"]
+ARG TEST_SUITE=smoke
+
+CMD mvn clean test -Dcucumber.filter.tags=@${TEST_SUITE}

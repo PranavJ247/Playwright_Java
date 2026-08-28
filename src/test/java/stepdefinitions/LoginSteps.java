@@ -33,7 +33,7 @@ public class LoginSteps {
 
         loginPage.enterPassword(password);
     }
-
+//login step
     @When("user clicks on Login button")
     public void userClicksOnLoginButton() {
 
