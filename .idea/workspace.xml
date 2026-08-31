@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e85aa8a-093f-42b4-ac2c-c2fb610135d8" name="Changes" comment="28 aug commit V3" />
+    <list default="true" id="2e85aa8a-093f-42b4-ac2c-c2fb610135d8" name="Changes" comment="28 aug commit V4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,21 +56,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Feature: Logout.executor": "Run",
-    "Cucumber Java.Scenario: Successful Login.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.LoginTest.executor": "Run",
-    "TestNG.TestRunner.executor": "Run",
-    "git-widget-placeholder": "Playwright__Java",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/pranav/IdeaProjects/Playwright_Java/src/main/java/base",
-    "onboarding.tips.debug.path": "C:/Users/pranav/IdeaProjects/Playwright_Java/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: Logout.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Successful Login.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#24 on Playwright__Java&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/pranav/IdeaProjects/Playwright_Java/src/main/java/base&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/pranav/IdeaProjects/Playwright_Java/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Cucumber Java.Feature: Logout">
     <configuration name="Feature: Logout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -371,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787930731296</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="28 aug commit V4">
+      <option name="closed" value="true" />
+      <created>1787931120123</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1787931120123</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -390,7 +398,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3107 latest" />
     <MESSAGE value="5th Commit" />
     <MESSAGE value="Final Commit" />
     <MESSAGE value="3 aug commit" />
@@ -415,6 +422,7 @@
     <MESSAGE value="27 aug commit V1" />
     <MESSAGE value="28 aug commit V2" />
     <MESSAGE value="28 aug commit V3" />
-    <option name="LAST_COMMIT_MESSAGE" value="28 aug commit V3" />
+    <MESSAGE value="28 aug commit V4" />
+    <option name="LAST_COMMIT_MESSAGE" value="28 aug commit V4" />
   </component>
 </project>
