@@ -13,7 +13,7 @@ public class BaseTest {
     public void setUp() {
         PlaywrightFactory.initBrowser();
     }
-//aftermethod
+
     @AfterMethod
     public void tearDown(ITestResult result) {
 
