@@ -43,7 +43,8 @@ public class LoginSteps {
     @Then("user should see the Dashboard")
     public void userShouldSeeDashboard() throws InterruptedException {
         DashboardPage dashboardPage = new DashboardPage();
-        Assert.assertTrue(dashboardPage.isDashboardDisplayed());
+        Assert.assertTrue(false);
+//        Assert.assertTrue(dashboardPage.isDashboardDisplayed());
     }
 
     @When("user logs out")
