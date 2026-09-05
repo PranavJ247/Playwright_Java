@@ -8,7 +8,7 @@ import pages.DashboardPage;
 import pages.LoginPage;
 import utils.ConfigReader;
 
-public class LoginTest extends BaseTest {
+public class LoginTest_old extends BaseTest {
 
     @Test
     public void verifyLogin() throws InterruptedException {
