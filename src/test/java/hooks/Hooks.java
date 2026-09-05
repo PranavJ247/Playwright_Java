@@ -21,7 +21,7 @@ public class Hooks {
     public void tearDown(Scenario scenario) {
 
         if (scenario.isFailed()) {
-
+            System.out.println("===== SCREENSHOT CODE STARTED =====");
             Page page = PlaywrightFactory.getPage();
 
             try {
@@ -41,7 +41,7 @@ public class Hooks {
                                 .setPath(screenshotPath)
                                 .setFullPage(true)
                 );
-
+                System.out.println("===== SCREENSHOT CREATED =====");
             } catch (Exception e) {
                 e.printStackTrace();
             }
