@@ -24,8 +24,8 @@ public class LoginTest extends BaseTest {
 
         DashboardPage dashboardPage = new DashboardPage();
 
-        //Assert.assertTrue(dashboardPage.isDashboardDisplayed());
-        Assert.assertTrue(dashboardPage.isDashboardDisplayed());
+        Assert.assertTrue(false);
+//        Assert.assertTrue(dashboardPage.isDashboardDisplayed());
 
     }
 }
