@@ -19,11 +19,12 @@ public class LoginTest extends BaseTest {
         // Create Page Object
         LoginPage loginPage = new LoginPage();
 
-        // Perform Login
+        // Perform Login in Application
         loginPage.login("Admin", "admin123");
 
         DashboardPage dashboardPage = new DashboardPage();
 
+        //Assert.assertTrue(dashboardPage.isDashboardDisplayed());
         Assert.assertTrue(dashboardPage.isDashboardDisplayed());
 
     }
