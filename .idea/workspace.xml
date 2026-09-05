@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e85aa8a-093f-42b4-ac2c-c2fb610135d8" name="Changes" comment="5 aug v3 fail ss">
+    <list default="true" id="2e85aa8a-093f-42b4-ac2c-c2fb610135d8" name="Changes" comment="5 aug v4 fail ss">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,14 +67,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.LoginTest.executor": "Run",
     "TestNG.TestRunner.executor": "Run",
-    "git-widget-placeholder": "#30 on Playwright__Java",
+    "git-widget-placeholder": "#31 on Playwright__Java",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/pranav/IdeaProjects/Playwright_Java/src/main/java/base",
     "onboarding.tips.debug.path": "C:/Users/pranav/IdeaProjects/Playwright_Java/src/main/java/org/example/Main.java",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.LoginTest">
+  <component name="RunManager" selected="TestNG.LoginTest_old">
     <configuration name="Feature: Logout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Logout.feature" />
@@ -115,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest_old" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Playwright_Java" />
       <extension name="coverage">
         <pattern>
@@ -124,7 +123,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTest_old" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -151,7 +150,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest_old" />
         <item itemvalue="Cucumber Java.Feature: Logout" />
         <item itemvalue="Cucumber Java.Scenario: Successful Login" />
         <item itemvalue="TestNG.TestRunner" />
@@ -423,7 +422,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788630928813</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="5 aug v4 fail ss">
+      <option name="closed" value="true" />
+      <created>1788631463349</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1788631463349</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -442,7 +449,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4 aug commit v1" />
     <MESSAGE value="5 aug commit v1" />
     <MESSAGE value="5 aug commit v2 readme file" />
     <MESSAGE value="5 aug commit v3 readme file" />
@@ -467,6 +473,7 @@
     <MESSAGE value="5 aug v1" />
     <MESSAGE value="5 aug v2 fail ss" />
     <MESSAGE value="5 aug v3 fail ss" />
-    <option name="LAST_COMMIT_MESSAGE" value="5 aug v3 fail ss" />
+    <MESSAGE value="5 aug v4 fail ss" />
+    <option name="LAST_COMMIT_MESSAGE" value="5 aug v4 fail ss" />
   </component>
 </project>
