@@ -11,7 +11,7 @@ public class BasePage {
         page = PlaywrightFactory.getPage();
 
     }
-    //d
+    
 
     public void click(Locator locator) {
         locator.click();
