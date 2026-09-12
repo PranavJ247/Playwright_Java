@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e85aa8a-093f-42b4-ac2c-c2fb610135d8" name="Changes" comment="10 sep v1 fail ss" />
+    <list default="true" id="2e85aa8a-093f-42b4-ac2c-c2fb610135d8" name="Changes" comment="12 sep v1 fail ss">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +74,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.LoginTest_old">
+  <component name="RunManager" selected="TestNG.TestRunner">
     <configuration name="Feature: Logout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Logout.feature" />
@@ -147,10 +150,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="TestNG.LoginTest_old" />
         <item itemvalue="Cucumber Java.Feature: Logout" />
         <item itemvalue="Cucumber Java.Scenario: Successful Login" />
-        <item itemvalue="TestNG.TestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +446,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789061287721</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="12 sep v1 fail ss">
+      <option name="closed" value="true" />
+      <created>1789224794654</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1789224794654</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -462,7 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5 aug commit v3 readme file" />
     <MESSAGE value="6 aug commit v1 Passing Dynamic URL" />
     <MESSAGE value="8 aug commit v1 changing the timeout" />
     <MESSAGE value="8 aug commit v2 Hooks and Test Runner creation" />
@@ -487,6 +497,7 @@
     <MESSAGE value="5 aug v4 fail ss" />
     <MESSAGE value="5 aug v5 fail ss" />
     <MESSAGE value="10 sep v1 fail ss" />
-    <option name="LAST_COMMIT_MESSAGE" value="10 sep v1 fail ss" />
+    <MESSAGE value="12 sep v1 fail ss" />
+    <option name="LAST_COMMIT_MESSAGE" value="12 sep v1 fail ss" />
   </component>
 </project>
