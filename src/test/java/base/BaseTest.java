@@ -9,7 +9,7 @@ public class BaseTest {
     public void setUp() {
         PlaywrightFactory.initBrowser();
     }
-
+//close browser
     @AfterMethod
     public void tearDown() {
         PlaywrightFactory.closeBrowser();
