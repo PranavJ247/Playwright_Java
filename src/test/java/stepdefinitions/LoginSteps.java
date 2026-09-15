@@ -7,6 +7,7 @@ import io.cucumber.java.en.Then;
 import org.testng.Assert;
 import pages.DashboardPage;
 import pages.LoginPage;
+import utils.ConfigReader;
 
 public class LoginSteps {
 
@@ -15,8 +16,7 @@ public class LoginSteps {
     @Given("user launches the application")
     public void userLaunchesApplication() {
 
-        PlaywrightFactory.getPage().navigate(
-                "https://opensource-demo.orangehrmlive.com/"
+        PlaywrightFactory.getPage().navigate(ConfigReader.getProperty("url")
         );
 
         loginPage = new LoginPage();
