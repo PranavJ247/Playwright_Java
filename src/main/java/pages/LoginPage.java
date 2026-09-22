@@ -36,4 +36,9 @@ public class LoginPage extends BasePage {
         return isVisible(txtUsername);
     }
 
+    public String getInvalidCredentialsMessage() {
+        return page.locator("//p[contains(@class,'oxd-alert-content-text')]")
+                .innerText();
+    }
+
 }
