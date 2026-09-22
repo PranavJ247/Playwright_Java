@@ -40,6 +40,16 @@ public class LoginSteps {
         loginPage.clickLogin();
     }
 
+    @Then("user should see invalid credentials message")
+    public void userShouldSeeInvalidCredentialsMessage() {
+        String actualMessage = loginPage.getInvalidCredentialsMessage();
+        Assert.assertEquals(
+                actualMessage,
+                "Invalid credentials",
+                "Invalid credentials message is not displayed correctly"
+        );
+    }
+
     @Then("user should see the Dashboard")
     public void userShouldSeeDashboard() throws InterruptedException {
         DashboardPage dashboardPage = new DashboardPage();
