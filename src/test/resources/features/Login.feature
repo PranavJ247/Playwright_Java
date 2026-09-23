@@ -1,4 +1,5 @@
 Feature: OrangeHRM Login
+
   @smoke
   Scenario Outline: Successful Login
     Given user launches the application
@@ -32,7 +33,7 @@ Feature: OrangeHRM Login
 
     Examples:
       | username | password    |
-      | Admin    | Invalid123  |
+      | Admin    | Invalid1234 |
 
   @regression @negative
   Scenario: Login with empty username and password
