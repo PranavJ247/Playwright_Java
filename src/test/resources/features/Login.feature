@@ -11,7 +11,7 @@ Feature: OrangeHRM Login
       | username | password |
       | Admin    | admin123 |
 
-  @regression @negative @smoke
+  @regression @negative
   Scenario Outline: Login with invalid username
     Given user launches the application
     When user enters username "<username>"
